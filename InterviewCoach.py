@@ -24,7 +24,7 @@ class collegecoach(QWidget):
 
 
     def college_interview(self):
-        openai.api_key = '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'
+        openai.api_key = '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'
         college = self.college_input.text()
         repeat = True
         while repeat:
@@ -70,7 +70,7 @@ class jobcoach(QWidget):
         self.setLayout(self.layout)
 
     def ask_questionsjob(self):
-        openai.api_key = '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'
+        openai.api_key = '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'
         job = self.job_input.text()
         repeat = True
         while repeat:
